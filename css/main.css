@@ -1,0 +1,54 @@
+
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 16PX;
+    flex-wrap: wrap;
+}
+.header{
+    padding: 20px 0;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    height: 50px;
+    
+    
+     position: sticky;
+     top: 0;
+     
+     
+ }
+ .logo{
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+ }
+ .header .logo a{
+    color: var(--mainColor);
+ }
+ 
+ .header .nav a{
+    color:#101928;
+ }
+ .header .auth {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.header .auth a{
+    font-family: var(--subFont);
+    border-radius:10px ;
+}
+
+.header .auth a:first-of-type{
+    border:1px solid var(--mainColor);
+    padding:5px 30px;
+}
+ .header .auth a:last-of-type{
+    border: 1px solid var(--mainColor);
+    padding: 5px 30px;
+    background-color: var(--mainColor);
+    color: white;
+    
+
+ }
